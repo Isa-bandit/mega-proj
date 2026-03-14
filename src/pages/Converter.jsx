@@ -16,7 +16,7 @@ export default function Converter() {
   useEffect(() => {
     const key = '0cb5d1a5b98040dc929607b4'
     if (!key) {
-      setError('API ключ не задан. Смотри API_INSTRUCTIONS.md')
+      setError('API ключ не задан.')
       setLoading(false)
       return
     }
