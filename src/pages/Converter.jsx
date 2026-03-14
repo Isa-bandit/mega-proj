@@ -14,7 +14,7 @@ export default function Converter() {
   const [lastUpdate, setLastUpdate] = useState('')
 
   useEffect(() => {
-    const key = import.meta.env.VITE_EXCHANGE_API_KEY
+    const key = '0cb5d1a5b98040dc929607b4'
     if (!key) {
       setError('API ключ не задан. Смотри API_INSTRUCTIONS.md')
       setLoading(false)
