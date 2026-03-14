@@ -1,0 +1,65 @@
+.converter_page {
+  background: black;
+  min-height: 100vh;
+}
+
+.converter_block {
+  background: black;
+  padding: 100px 0;
+}
+
+.inner_converter {
+  margin-top: 50px;
+  border: 1px solid var(--orange);
+  border-radius: 20px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.converter_row {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.converter_row label {
+  min-width: 60px;
+}
+
+.converter_row input {
+  width: 200px;
+}
+
+.converter_row select {
+  height: 50px;
+  font-size: 18px;
+  background: black;
+  color: var(--orange);
+  border: 2px solid var(--orange);
+  padding: 0 10px;
+  cursor: pointer;
+}
+
+.converter_result {
+  text-align: center;
+  font-size: 32px;
+  color: var(--orange);
+  min-height: 48px;
+}
+
+.converter_rates {
+  text-align: center;
+  color: #888;
+  font-size: 14px;
+}
+
+.converter_block button {
+  width: 100%;
+}
