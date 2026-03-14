@@ -9,7 +9,7 @@ export default function Weather() {
     if (!city.trim()) return
     setError('')
     setResult(null)
-    const key = import.meta.env.VITE_OPENWEATHER_API_KEY
+    const key = '0fa2bc6a87219ed75c6c82d41728c5bc'
     if (!key) {
       setError('API ключ не задан. Смотри API_INSTRUCTIONS.md')
       return
