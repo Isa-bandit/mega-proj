@@ -11,7 +11,7 @@ export default function Weather() {
     setResult(null)
     const key = '0fa2bc6a87219ed75c6c82d41728c5bc'
     if (!key) {
-      setError('API ключ не задан. Смотри API_INSTRUCTIONS.md')
+      setError('API ключ не задан. ')
       return
     }
     try {
